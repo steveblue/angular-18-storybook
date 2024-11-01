@@ -11,10 +11,10 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "types": ["node"],
+    "typeRoots": ["node_modules/@types"],
     "paths": {
-      "ngx": [
-        "./dist/ngx"
-      ]
+      "ngx": ["./dist/ngx"]
     },
     "esModuleInterop": true,
     "sourceMap": true,
@@ -24,10 +24,7 @@
     "importHelpers": true,
     "target": "ES2022",
     "module": "ES2022",
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "lib": ["ES2022", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

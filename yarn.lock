@@ -4633,7 +4633,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:>=10.0.0, @types/node@npm:^22.0.0, @types/node@npm:^22.5.5":
+"@types/node@npm:*, @types/node@npm:>=10.0.0, @types/node@npm:^22.0.0, @types/node@npm:^22.5.5, @types/node@npm:^22.8.6":
   version: 22.8.6
   resolution: "@types/node@npm:22.8.6"
   dependencies:
@@ -5206,6 +5206,7 @@ __metadata:
     "@storybook/blocks": "npm:^8.4.1"
     "@storybook/test": "npm:^8.4.1"
     "@types/jasmine": "npm:~5.1.0"
+    "@types/node": "npm:^22.8.6"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     jasmine-core: "npm:~5.2.0"
