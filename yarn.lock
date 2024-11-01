@@ -44,6 +44,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@angular-devkit/architect@npm:^0.1802.11":
+  version: 0.1802.11
+  resolution: "@angular-devkit/architect@npm:0.1802.11"
+  dependencies:
+    "@angular-devkit/core": "npm:18.2.11"
+    rxjs: "npm:7.8.1"
+  dependenciesMeta:
+    esbuild:
+      built: true
+    puppeteer:
+      built: true
+  checksum: 10c0/286a5519bbd5ed3e3cdbb4d1110daa5831eeef785f61fbf17e4f5244a31f72c847e4f2b4fbecff5eaba1b1482477cf6730fa8ee9c738bf15d684ee260b509f30
+  languageName: node
+  linkType: hard
+
 "@angular-devkit/build-angular@npm:~18.1.0":
   version: 18.1.4
   resolution: "@angular-devkit/build-angular@npm:18.1.4"
@@ -198,6 +213,30 @@ __metadata:
     chokidar:
       optional: true
   checksum: 10c0/5347b9d7dd2f6f833b8dd14d52d1bc9231e3986675127fff336550cc291f1996364580589cfee0ee51de9edd780cc98a7cad31e96376d12eccb9f6f9b29b3ef6
+  languageName: node
+  linkType: hard
+
+"@angular-devkit/core@npm:18.2.11, @angular-devkit/core@npm:~18.2.0":
+  version: 18.2.11
+  resolution: "@angular-devkit/core@npm:18.2.11"
+  dependencies:
+    ajv: "npm:8.17.1"
+    ajv-formats: "npm:3.0.1"
+    jsonc-parser: "npm:3.3.1"
+    picomatch: "npm:4.0.2"
+    rxjs: "npm:7.8.1"
+    source-map: "npm:0.7.4"
+  peerDependencies:
+    chokidar: ^3.5.2
+  dependenciesMeta:
+    esbuild:
+      built: true
+    puppeteer:
+      built: true
+  peerDependenciesMeta:
+    chokidar:
+      optional: true
+  checksum: 10c0/37e7ef8da14be852c3dab3eef285f65c64ef4315399f87292ecd4d803faf5ac85609bde054e92d49f31ed6626e1ddff2bed6d6bd23e8cbae3a9ed4196fbb3643
   languageName: node
   linkType: hard
 
@@ -4640,7 +4679,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.11":
+"@types/react-dom@npm:^18, @types/react-dom@npm:^18.0.11":
   version: 18.3.1
   resolution: "@types/react-dom@npm:18.3.1"
   dependencies:
@@ -4649,7 +4688,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.37":
+"@types/react@npm:*, @types/react@npm:^18, @types/react@npm:^18.0.37":
   version: 18.3.12
   resolution: "@types/react@npm:18.3.12"
   dependencies:
@@ -5144,7 +5183,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "angular-18-storybook@workspace:."
   dependencies:
+    "@angular-devkit/architect": "npm:^0.1802.11"
     "@angular-devkit/build-angular": "npm:~18.1.0"
+    "@angular-devkit/core": "npm:~18.2.0"
     "@angular/animations": "npm:~18.1.0"
     "@angular/cli": "npm:~18.1.0"
     "@angular/common": "npm:~18.1.0"
@@ -5165,6 +5206,8 @@ __metadata:
     "@storybook/blocks": "npm:^8.4.1"
     "@storybook/test": "npm:^8.4.1"
     "@types/jasmine": "npm:~5.1.0"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
     jasmine-core: "npm:~5.2.0"
     karma: "npm:~6.4.0"
     karma-chrome-launcher: "npm:~3.2.0"
@@ -5172,6 +5215,8 @@ __metadata:
     karma-jasmine: "npm:~5.1.0"
     karma-jasmine-html-reporter: "npm:~2.1.0"
     ng-packagr: "npm:~18.1.0"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
     rxjs: "npm:~7.8.0"
     storybook: "npm:^8.4.1"
     tslib: "npm:^2.3.0"
@@ -10986,7 +11031,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"react-dom@npm:^16.8.0 || ^17.0.0 || ^18.0.0, react-dom@npm:^18.3.1":
   version: 18.3.1
   resolution: "react-dom@npm:18.3.1"
   dependencies:
@@ -11005,7 +11050,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0":
+"react@npm:^16.8.0 || ^17.0.0 || ^18.0.0, react@npm:^18.3.1":
   version: 18.3.1
   resolution: "react@npm:18.3.1"
   dependencies:
