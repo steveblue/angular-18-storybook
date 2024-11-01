@@ -44,6 +44,7 @@
     "@storybook/blocks": "^8.4.1",
     "@storybook/test": "^8.4.1",
     "@types/jasmine": "~5.1.0",
+    "@types/mocha": "^10.0.9",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "jasmine-core": "~5.2.0",
