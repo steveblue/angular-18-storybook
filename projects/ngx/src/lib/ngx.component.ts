@@ -4,13 +4,7 @@ import { Component } from '@angular/core';
   selector: 'lib-ngx',
   standalone: true,
   imports: [],
-  template: `
-    <p>
-      ngx works!
-    </p>
-  `,
-  styles: ``
+  template: ` <p>ngx works!!!</p> `,
+  styles: ``,
 })
-export class NgxComponent {
-
-}
+export class NgxComponent {}
