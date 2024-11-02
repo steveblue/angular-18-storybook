@@ -30,9 +30,11 @@ jobs:
 
       - name: Prepare and deploy
         if: ${{ github.ref == 'refs/heads/main' }}
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist/storybook/ngx
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: ./dist/storybook/ngx
+          CLEAN: true
         env:
           CI: true
