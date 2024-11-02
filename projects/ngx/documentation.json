@@ -108,7 +108,7 @@
                 "deprecated": false,
                 "deprecationMessage": "",
                 "type": "Story",
-                "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Button',\n  },\n}"
+                "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Start',\n  },\n}"
             },
             {
                 "name": "Secondary",
@@ -198,7 +198,7 @@
                     "deprecated": false,
                     "deprecationMessage": "",
                     "type": "Story",
-                    "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Button',\n  },\n}"
+                    "defaultValue": "{\n  args: {\n    primary: true,\n    label: 'Start',\n  },\n}"
                 },
                 {
                     "name": "Secondary",
